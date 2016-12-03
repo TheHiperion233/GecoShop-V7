@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.helloworld"
+        version   = "1.0.0">
+        <name>GecoShop</name>
+        <author>Francisco Luna email="pentagris@gmail.com</author>
+          <description>GecoShop Aplicación dedicada a hacer multiplataforma. </description>
+           <preference name="permissions"                value="none"/>
+           <feature name="http://api.phonegap.com/1.0/network" />
+
+<access origin="*" onlyInBrowser="true" />
+ <icon src="images/logos/logosapp.png" alt="img"  />
+	 </widget>
